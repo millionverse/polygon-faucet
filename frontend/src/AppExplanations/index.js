@@ -42,7 +42,7 @@ export default function AppExplanations() {
     With `0.001 MATIC`, you can do `100` basic transactions on Polygon network ! You can even deposit or withdraw funds on `Aave`, even though it is a pretty expensive transaction (`50$+` on Ethereum, `1$+` on Binance Smart Chain). \n\
     The goal of this faucet is not to make you rich but just to make the onboarding to Polygon smoother.  \n\
     You can use it up to `3 times a day`, for the most clumsy of us 🙄  \n\
-    Feel free to send some spare change at `0x8C5a6C767Ee7084a8C656Acd457Da9561163aE7E` to replenish the faucet once you're rich 🦄";
+    Feel free to send some spare change at `0x8ca388912abac5e79E95756B5C6b6F9d04609A5A` to replenish the faucet once you're rich 🦄";
 
   const howToEarnMoreMatic_help =
     "* First bring your assets from Ethereum to Polygon through [the bridge](https://wallet.matic.network/bridge/)  \n\
@@ -53,9 +53,15 @@ export default function AppExplanations() {
     * Enjoy the same functionalities Ethereum has, only with less friction 🦄  \n\
     ";
 
+  const whyMillionverse_help =
+    "`Millionverse` is hosted on Polygon!  \n\
+    With the transaction fee skyrocketing on Ethereum Mainnet, `Millionverse` decided to move to Polygon entirely for a better gaming experience.   \n\
+    `Millionverse` MATIC Faucet makes sure users can play on Millionverse smoothly. \n\
+    ";
+
   return (
     <Accordion allowZeroExpanded allowMultipleExpanded onChange={handleExpand}>
-       <AccordionItem>
+      <AccordionItem>
         <AccordionItemHeading>
           <AccordionItemButton>What is a Faucet ?</AccordionItemButton>
         </AccordionItemHeading>
@@ -87,6 +93,17 @@ export default function AppExplanations() {
           <ReactMarkdown
             className="Explanations"
             children={howToEarnMoreMatic_help}
+          ></ReactMarkdown>
+        </AccordionItemPanel>
+      </AccordionItem>
+       <AccordionItem>
+        <AccordionItemHeading>
+          <AccordionItemButton>Why Millionverse provides a Faucet ?</AccordionItemButton>
+        </AccordionItemHeading>
+        <AccordionItemPanel>
+          <ReactMarkdown
+            className="Explanations"
+            children={whyMillionverse_help}
           ></ReactMarkdown>
         </AccordionItemPanel>
       </AccordionItem>

@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import mmlogo from './mmlogo.png';
 import './App.css';
 import packageJson from "../package.json";
 import LoadButton from "./LoadButton";
@@ -27,7 +28,9 @@ function App() {
       <ToastContainer hideProgressBar={true} />
       <div className="App-banner">
           <img src={logo} className="App-logo" alt="logo" />
-          <p className="App-title">Polygon Faucet</p>
+          <p className="App-title">Polygon Faucet </p>
+          <p className="App-title"> By </p>
+          <img src={mmlogo} className="MM-logo" alt="logo"/>
         </div>
       <header className="App-header">
       <div className="Commands">
@@ -60,7 +63,9 @@ function App() {
               setCaptcha("");
             })
             .catch((error) => {
-              toast.error(`${error.response.data.err.message} 🙅`)})
+              // toast.error(`${error.response.data.err.message} 🙅`)
+              toast.error(`${error} 🙅`)
+            })
           }
         />
       </div>
@@ -78,14 +83,14 @@ function App() {
       <AppExplanations></AppExplanations>
       <div className="App-footer">
         <p>
-          A modest Web App built by <a href="https://github.com/TamtamHero" target="_blank" rel="noopener noreferrer">TamtamHero</a> with React, hosted on Github. v
+          A modest Web App built by <a href="https://github.com/millionverse" target="_blank" rel="noopener noreferrer">Millionverse</a> with React, hosted on Github. v
           {`${packageJson.version}`}.{" "}
-          <a href="https://github.com/TamtamHero/polygon-faucet/">
+          <a href="https://github.com/millionverse/polygon-faucet/">
             PRs welcomed and appreciated ✨
           </a>
         </p>
         <p>
-          Ethereum/Polygon donation: <a h href="https://polygonscan.com/address/0x97d5CeBb87cBeB641c0C17C2d4d29339CDCF91D2/transactions" target="_blanc" rel="noopener noreferrer">0x97d5CeBb87cBeB641c0C17C2d4d29339CDCF91D2</a>
+          Ethereum/Polygon donation: <a h href="https://polygonscan.com/address/0x8ca388912abac5e79E95756B5C6b6F9d04609A5A/transactions" target="_blanc" rel="noopener noreferrer">0x8ca388912abac5e79E95756B5C6b6F9d04609A5A</a>
         </p>
       </div>
       </header>

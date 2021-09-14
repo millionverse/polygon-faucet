@@ -31,6 +31,12 @@ html {
   pointer-events: none;
 }
 
+.MM-logo {
+  width: 50vh;
+  height: auto;
+  pointer-events: none;
+}
+
 .App-title {
   margin-left: 1.5vh;
   font-size: 3vh;

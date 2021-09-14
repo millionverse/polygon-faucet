@@ -1,6 +1,6 @@
 {
-  "apiurl": "https://backend.matic.supply:3000",
+  "apiurl": "http://test.millionverse.live:3001",
   "explorer": "https://polygonscan.com",
   "maxAmount": 1000000000000000,
-  "hcaptchasitekey": "d712e7c4-b981-4761-bb8c-c7af95d016dd"
+  "hcaptchasitekey": "0974cab6-46e1-4e80-a481-1ed253f0cdf6"
 }
