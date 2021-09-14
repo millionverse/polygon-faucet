@@ -27,11 +27,13 @@ function App() {
     <div className="App">
       <ToastContainer hideProgressBar={true} />
       <div className="App-banner">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p className="App-title">Polygon Faucet </p>
-          <p className="App-title"> By </p>
-          <a href="https://millionverse.live"><img src={mmlogo} className="MM-logo" alt="logo"/></a>
-        </div>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p className="App-title">Polygon Faucet </p>
+      </div>
+      <div className="App-banner">
+        <p className="App-title">By</p>
+        <a href="https://millionverse.live"><img src={mmlogo} className="MM-logo" alt="logo"/></a>
+      </div>
       <header className="App-header">
       <div className="Commands">
         <LoadButton
