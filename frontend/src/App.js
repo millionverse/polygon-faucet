@@ -30,7 +30,7 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
           <p className="App-title">Polygon Faucet </p>
           <p className="App-title"> By </p>
-          <img src={mmlogo} className="MM-logo" alt="logo"/>
+          <a href="https://millionverse.live"><img src={mmlogo} className="MM-logo" alt="logo"/></a>
         </div>
       <header className="App-header">
       <div className="Commands">
