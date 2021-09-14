@@ -31,7 +31,6 @@ function App() {
         <p className="App-title">Polygon Faucet </p>
       </div>
       <div className="App-banner">
-        <p className="App-title">By</p>
         <a href="https://millionverse.live"><img src={mmlogo} className="MM-logo" alt="logo"/></a>
       </div>
       <header className="App-header">
